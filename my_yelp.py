@@ -13,8 +13,8 @@ def search_businesses(search_term, search_location):
     }
 
     my_params = {
-    "term": "restaurants",
-    "location": "chicago",
+    "term": search_term,
+    "location": search_location,
     "limit":3,
     }
 
